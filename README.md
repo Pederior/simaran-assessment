@@ -57,9 +57,3 @@ This is a simple user management API built with Node.js, TypeScript, Express, an
 | PUT | `/edit` | Edit a user |
 | DELETE | `/remove` | Remove a user |
 | GET | `/get` | Get users |
-
-## Notes
-
-The project uses raw SQL queries to communicate with PostgreSQL.
-
-Make sure your database is configured before running the server.
