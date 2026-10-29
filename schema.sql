@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  "birthDate" TIMESTAMPTZ NOT NULL,
+  "isAdmin" BOOLEAN NOT NULL,
+  departments TEXT[] NOT NULL,
+  balance BIGINT NOT NULL
+);
